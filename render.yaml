@@ -1,8 +1,8 @@
 services:
-  - name: backup-db
+  - name: sst-designer-production-db-backup
     type: cron
     schedule: "0 3 * * *"
-    region: oregon
+    region: frankfurt
     env: docker
     plan: standard
     dockerfilePath: ./Dockerfile
