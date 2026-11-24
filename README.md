@@ -4,7 +4,7 @@ This repo can be used to deploy a [Cron Job](https://render.com/docs/cronjobs) o
 
 Fork this repo and click the button below to deploy.
 
-You'll need to set corresponding OS and Postgres versions:
+The image defaults to the Postgres 18 client on Alpine 3.23, which can dump any older server, so neither variable has to be set. To pin an older client, set corresponding OS and Postgres versions:
 
 | `POSTGRES_VERSION` | `ALPINE_VERSION` |
 | :----------------: | :--------------: |
